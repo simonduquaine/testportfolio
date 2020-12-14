@@ -1,0 +1,415 @@
+
+  
+
+body {
+    background-color: #001243;
+    margin: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* 
+   HEADER 
+   */
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo>img {
+    width: 10vh;
+    margin: 2vh
+}
+
+a {
+    color: #f6daef;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0;
+    line-height: 5vh;
+    font-family: din-condensed-web, sans-serif;
+    font-weight: lighter;
+}
+
+nav li {
+    margin-left: 2vh;
+}
+
+/* 
+   MAIN IMAGE / BANNER 
+   */
+
+#ban {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.main-image {
+    background-color: #b9b5ef;
+}
+
+.main-image .wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    margin-top: 2vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    color: #f6daef;
+}
+
+.centered h1 {
+    font-size: 6rem;
+    margin-top: 23%;
+    margin-bottom: 0;
+    font-family: Calgary Script OT, sans-serif;
+    letter-spacing: 5px;
+}
+
+.centered h4 {
+    font-size: 4vh;
+    margin: 0;
+    font-family: din-condensed-web, sans-serif;
+    font-weight: lighter;
+}
+
+.centered i {
+    position: absolute;
+    font-size: 5vh;
+    right: 1rem!important;
+    bottom: 3rem
+}
+
+/* 
+   CV 
+   */
+
+#cv {
+    background-color: #b9b5ef;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#cv .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cv>div>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 70%;
+}
+
+#cv h2 {
+    margin: 0;
+    padding-bottom: 1vh;
+    font-size: 3vh;
+    font-family: Calgary Script OT, sans-serif;
+}
+
+#cv p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: din-condensed-web, sans-serif;
+    font-weight: lighter;
+    font-size: 3vh;
+}
+
+#cv i {
+    position: absolute;
+    right: 1rem;
+    font-size: 5vh;
+    color: #001243;
+}
+
+#cv ul i {
+    bottom: -105vh;
+}
+
+.parcour {
+    background-color: #001243;
+    color: #f6daef;
+    width: 35%;
+    padding: 2vh;
+    margin-left: 4vh;
+}
+
+.parcour>h2 {
+    text-align: center;
+}
+
+.parcour>p {
+    font-size: 1.92vh;
+    color: #71d9d8;
+    line-height: normal;
+}
+
+/* 
+   COMPETENCES 
+   */
+
+.competence {
+    width: 40%;
+    padding-left: 0;
+    padding: 2vh;
+}
+
+.competence h2 {
+    text-align: center;
+    color: #001243;
+}
+
+.competence>label {
+    display: inline-block;
+    font-size: 3vh;
+    font-weight: bold;
+    width: 30%;
+    margin-right: 3vh;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    color: #001243;
+    font-family: din-condensed-web, sans-serif;
+    font-weight: lighter;
+}
+
+.competence progress {
+    width: 50%;
+    height: 2vh;
+    border-radius: 0;
+    color: #71d9d8;
+    background-color: #001243;
+    border: 1px solid #001243;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #001243;
+    color: #71d9d8;
+    border: 1px solid #001243;
+}
+
+progress::-webkit-progress-value {
+    background-color: #71d9d8;
+}
+
+progress[value]::-moz-progress-bar {
+    background-color: #71d9d8;
+ }
+.competence p {
+    width: 5vh;
+    margin: 0;
+}
+
+/*
+   A PROPOS 
+   */
+
+.about {
+    margin: auto;
+    background-color: #001243;
+    color: #71d9d8;
+    width: 75%;
+    margin-top: 2vh;
+    padding: 2vh;
+    padding-bottom: 4vh;
+}
+
+.about h4 {
+    font-family: Calgary Script OT, sans-serif;
+    padding-bottom: 2vh;
+    margin: 0;
+    font-size: 5vh;
+    text-align: center;
+    color: #f6daef;
+}
+
+.about>p {
+    font-size: 6vh;
+    padding-left: 2vh;
+}
+
+/* 
+   PORTFOLIO 
+   */
+
+#portfolio {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#portfolio .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#portfolio>.wrapper>h2 {
+    flex: 0 1 100%;
+    text-align: center;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio h2 {
+    font-family: Calgary Script OT, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #f6daef;
+    font-size: 5vh;
+}
+
+#portfolio i {
+    position: absolute;
+    right: 1rem;
+    font-size: 5vh;
+    color: #f6daef;
+}
+
+.overlay img {
+    padding-top: 4vh;
+    width: 70%;
+}
+
+.first-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* 
+   FORMULAIRE CONTACT 
+   */
+
+#contact {
+    background-color: #b9b5ef;
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 3vh;
+    font-family: Calgary Script OT, sans-serif;
+    color: #001243;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input {
+    background-color: #001243;
+    border: 1px #001243 solid;
+    width: 50vh;
+    height: 5vh;
+    margin-bottom: 4vh;
+    font-family: din-condensed-web, sans-serif;
+    font-weight: lighter;
+    font-size: 2.2vh;
+    color: #b9b5ef;
+    font-family: din-condensed-web, sans-serif;
+}
+
+::placeholder {
+    color: #f6daef;
+    margin-bottom: 4vh;
+    font-size: 2vh;
+    font-family: din-condensed-web, sans-serif;
+    font-weight: lighter;
+}
+
+#contact textarea {
+    background-color: #001243;
+    border: 1px #001243 solid;
+    margin-bottom: 4vh;
+    width: 50vh;
+    height: 20vh;
+    font-size: 2.2vh;
+    color: #b9b5ef;
+    font-family: din-condensed-web, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: 15vh!important;
+    font-family: din-condensed-web, sans-serif;
+    !important;
+    font-size: 2vh!important;
+    font-weight: lighter;
+}
+
+#contact i {
+    position: absolute;
+    right: 1rem;
+    font-size: 5vh;
+    color: #001243;
+}
+
+/* 
+   FOOTER 
+   */
+
+.footer {
+    height: 14h;
+    font-size: 2vh;
+}
+
+.footer img {
+    width: 12vh;
+    position: absolute;
+    padding: 2vh;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    padding: 2vh;
+}
+
+.copyright p {
+    margin: 0;
+    color: #f6daef;
+    font-family: din-condensed-web, sans-serif;
+    font-weight: lighter;
+}
+
+}

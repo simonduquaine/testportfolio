@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="only screen and (max-width: 768px)" href="smartphone_final.css">
+    <link rel="stylesheet" media="only screen and (min-width: 769px) and (max-width: 992px)" href="tablette_final.css">
+    <link rel="stylesheet" media="only screen and (min-width: 993px)" href="desktop_final.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/photo-profil.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>Portoflio Marion</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="photo-profil.png" alt="photo marion">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#about">A PROPOS</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACTEZ-MOI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-image">
+        <div class="wrapper">
+            <div>
+                <img src="charleroi.png" alt="bannière" id="ban" />
+            </div>
+            <div class="centered">
+                <h1>MARION DURIAU</h1>
+                <h4>GRAPHISTE</h4>
+                <a href="#cv"><i class="fas fa-angle-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv">
+        <a href="index.html"><i class="fas fa-angle-up"></i></a>
+        <div class="wrapper">
+            <ul>
+                <li class="parcour">
+                    <h2>CV</h2>
+                    <p><u>Education et formation:</u> <br />Juin 2018: Certificat d'Enseignement Secondaire Supérieur
+                        délivré par l'Athénée Royal Jules Detrée.
+                        <br /><br />
+                    <p><u>Experience professionnelle:</u><br /> 2014-2017: Reassortisseuse au Delhaize de Marcinelle,
+                        magasin alimentaire.
+                        <br /> 2019-2020 : Jobiste au Biocap de Marcinelle, magasin bio-alimentaire.<br /> 2021 : Stage
+                        de
+                        15 semaines dans le studio graphique « Indigo Studio » à Charleroi.
+                    </p>
+                </li>
+
+                <li class="competence">
+                    <h2>COMPETENCES</h2>
+                    <label for="francais">Français</label>
+                    <progress id="francais" max="100" value="100"></progress>
+                    <label for="anglais">Anglais</label>
+                    <progress id="anglais" max="100" value="50"></progress>
+                    <label for="espagnol">Espagnol</label>
+                    <progress id="espagnol" max="100" value="35"></progress>
+                    <label for="word">Word</label>
+                    <progress id="word" max="100" value="100"></progress>
+                    <label for="powerpoint">Powerpoint</label>
+                    <progress id="powerpoint" max="100" value="90"></progress>
+                    <label for="illustrator">Illustrator</label>
+                    <progress id="illustrator" max="100" value="80"></progress>
+                    <label for="indesign">Indesign</label>
+                    <progress id="indesign" max="100" value="70"></progress>
+                    <label for="photoshop">Photoshop</label>
+                    <progress id="photoshop" max="100" value="65"></progress>
+                    <label for="procreate">Procreate</label>
+                    <progress id="procreate" max="100" value="100"></progress>
+                </li>
+
+
+                <li id="about" class="about">
+                    <h4>A PROPOS</h4>
+                    <p>Marion Duriau, Etudiante en dernière année de graphisme et d'infographie. Je suis passionnée par
+                        "street" visuel actuel.</p>
+                    <p>Je puise ma créativité dans ce qui me passionne : la photographie, l'art urbain et l'art
+                        numérique.
+                    </p>
+                    <p>Je propose mes services dans tout graphic design, affiche, logon, site web, enseigne, skate
+                        board, longboard,... pour n'importe quel type de client.</p>
+                </li>
+            </ul>
+            <a href="#portfolio"><i class="fas fa-angle-down"></i></a><br /><br /><br />
+        </div>
+
+    </section>
+
+    <section id="portfolio">
+        <a href="#cv"><i class="fas fa-angle-up"></i></a>
+        <div class="wrapper">
+            <h2>PORTFOLIO</h2>
+            <div class="first-row">
+                <div id="bigbang">
+                    <div class="overlay">
+                        <img src="carnaval.png" alt="carnaval">
+                    </div>
+                </div>
+
+                <div id="converse">
+                    <div class="overlay">
+                        <img src="converse.png" alt="converse">
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-row">
+                <div id="skate">
+                    <div class="overlay">
+                        <img src="skate.png" alt="skate">
+                    </div>
+                </div>
+
+                <div id="ipadart">
+                    <div class="overlay">
+                        <img src="ipadart.png" alt="ipad art">
+                    </div>
+                </div>
+            </div>
+            <a href="#contact"><i class="fas fa-angle-down"></i></a>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <a href="#portfolio"><i class="fas fa-angle-up"></i></a>
+        <h3>CONTACTEZ-MOI</h3>
+        <form action="./formulaire.php" method="POST">
+            <label for="name"><input type="text" id="name" name="name" placeholder="Nom Prénom"></label>
+            <label for="mail"><input type="email" id="mail" name="email" placeholder="Adresse mail"></label>
+            <label for="demande"><textarea name="message" placeholder="Demande" id="demande" cols="50"
+                    rows="10"></textarea></label>
+            <input type="submit" class="btn" value="Envoyer">
+        </form>
+    </section>
+
+    <div class="footer">
+        <img src="photo-profil.png" alt="">
+        <div class="copyright">
+            <p>Marion Duriau</p>
+            <p>marion.duriau@gmail.com</p>
+            <p>0471626312</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
