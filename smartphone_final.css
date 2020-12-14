@@ -244,7 +244,7 @@ progress[value]::-moz-progress-bar {
 .overlay img {
     padding-top: 4vh;
     width: 70%;
-    object-fit: contain;
+    height: auto;
 }
 
 /* 
