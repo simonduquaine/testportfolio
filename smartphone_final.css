@@ -248,6 +248,9 @@ progress[value]::-moz-progress-bar {
     max-height: 50vh;
 }
 
+#bigbang img {
+    height: 379px;
+
 /* 
    FORMULAIRE CONTACT 
    */
