@@ -231,6 +231,7 @@ progress[value]::-moz-progress-bar {
 .overlay {
     display: flex;
     justify-content: center;
+    height: auto;
 }
 
 #portfolio h2 {
