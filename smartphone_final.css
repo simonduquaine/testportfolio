@@ -252,6 +252,18 @@ progress[value]::-moz-progress-bar {
     height: 350px;
 }
 
+#converse img {
+    height: 200px;
+}
+
+#skate img {
+    height: 200px;
+}
+
+#ipadart img {
+    height: 200px;
+}
+
 /* 
    FORMULAIRE CONTACT 
    */
